@@ -1,20 +1,16 @@
 # 01 — Prompting (Module 1)
 
-Commit two artifacts here:
+Juno's foundational system prompt: a Signal Arbiter persona that turns raw RocketShip artifacts (interviews, tickets, emails, call notes, Slack threads) into a structured, evidence-cited Opportunity Brief.
 
-- `system-prompt.md` — produced by **M1 - System Prompt Configurator.html**
-- `lovable-prototype.md` — link to your Lovable prototype + 1–2 screenshots
+## What's here
 
-> **Tool:** `Modules/M1 - System Prompt Configurator.html` in the course repo.
+- [`system-prompt.md`](system-prompt.md) — Juno's full system prompt: Persona, Task, Style, Format (with a golden few-shot example), Constraints (weighting rules, conflict-surfacing, no-compound-inference), and Chain-of-Thought instructions.
+- [`lovable-prototype.md`](lovable-prototype.md) — the Lovable prototype write-up (dashboard structure, what it demonstrates, open questions). Still needs the live Lovable share link + screenshots filled in once the prototype is published.
 
-## Self-review checklist (M1)
+## Self-review status
 
-- Persona names Juno as a PM (not a generic assistant)
-- Task is bounded — what Juno does and doesn't do
-- Style + Format are explicit
-- Constraints include at least one refusal rule
-- Lovable prototype runs the system prompt end-to-end
-
-## AI-review prompt
-
-> *You are a staff PM reviewing this system prompt. (a) Could a new teammate run Juno from this prompt alone? (b) Where does it leak ambiguity? (c) What single edit would most reduce hallucination risk? Reply in 3 short paragraphs.*
+- ✅ Persona names Juno as a PM, not a generic assistant
+- ✅ Task is bounded — explicit "you do not" list
+- ✅ Style + Format are explicit, with a golden example
+- ✅ Constraints include multiple refusal/escalation rules
+- ⬜ Lovable prototype link — pending publish
